@@ -209,6 +209,29 @@ body {
 	}
 }
 
+//Islands
+.islands{
+	&__card{
+		position: relative;
+		margin: 1em 0;
+		height: 450px;
+		color: $pure-white;
+		text-align: center;
+		perspective: 1000px;
+
+		&-img{
+			padding: 2em;
+			height: 100%;
+			border-radius: 8px;
+			background-size: cover;
+
+			&--first{
+				background-image: $light-blue-gradient, url('../img/islands/');
+			}
+		}
+	}
+}
+
 ///==================
 /// MEDIA
 /// =================
